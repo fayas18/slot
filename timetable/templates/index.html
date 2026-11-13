@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semester Timetable</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3a8a;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 15px 8px;
+            text-align: center;
+        }
+
+        th {
+            background: #1e40af;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #eff6ff;
+        }
+
+        .break {
+            background: #fde68a;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #64748b;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>SEMESTER TIME TABLE</h1>
+
+    <p>Department of Artificial Intelligence and Data Science</p>
+    <p>Academic Year: 2026 - 2027</p>
+
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:00 - 11:15</th>
+            <th>11:15 - 12:15</th>
+            <th>12:15 - 1:15</th>
+            <th>1:15 - 2:00</th>
+            <th>2:00 - 3:00</th>
+        </tr>
+
+        <tr>
+            <th>Monday</th>
+            <td>Python</td>
+            <td>Mathematics</td>
+            <td class="break" rowspan="5">Break</td>
+            <td>BEEE</td>
+            <td>Web Development</td>
+            <td class="break" rowspan="5">Lunch</td>
+            <td>Lab</td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td>BEEE</td>
+            <td>Python</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Web Development</td>
+        </tr>
+
+        <tr>
+            <th>Wednesday</th>
+            <td>Web Development</td>
+            <td>BEEE</td>
+            <td>Python</td>
+            <td>Mathematics</td>
+            <td>Lab</td>
+        </tr>
+
+        <tr>
+            <th>Thursday</th>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Web Development</td>
+            <td>BEEE</td>
+            <td>Python</td>
+        </tr>
+
+        <tr>
+            <th>Friday</th>
+            <td>Python</td>
+            <td>Web Development</td>
+            <td>English</td>
+            <td>Lab</td>
+            <td>Mathematics</td>
+        </tr>
+    </table>
+
+    <footer>
+        © 2026 Semester Timetable
+    </footer>
+
+</div>
+
+</body>
+</html>
